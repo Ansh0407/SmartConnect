@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8" />
+    <title>About Us - SmartConnect</title>
+</head>
+<body>
+    <section class="w-100">
+        <h2 class="text-center mt-3">Meet Our Team</h2>
+        
+        <div class="team-section justify-content-center mt-5">
+            <div class="team-member d-flex flex-column justify-content-center align-items-center">
+                <img src="/img/about.jpg" alt="Team Member" style="width: 400px; height: auto;">
+                <h3 class="text-center mt-3">Adhish Bahl & Ansh Bhandari</h3>
+            </div>
+            
+        </div>
+    </section>
+
+    <style>
+        .team-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .team-member {
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 250px;
+        }
+        
+        .team-member img {
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+    </style>
+</body>
+</html>
