@@ -318,7 +318,7 @@ public class UserController {
 		}
 
 		// return "redirect:/user/index";
-		return "redirect:/user/show-contacts";
+		return "redirect:/user/show-contacts/0";
 	}
 
 	

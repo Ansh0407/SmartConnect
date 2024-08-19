@@ -47,7 +47,7 @@ public class MyConfig extends WebSecurityConfigurerAdapter {
 				.antMatchers("/**").permitAll().and().formLogin()
 				.loginPage("/signin")
 				.loginProcessingUrl("/dologin")
-				.defaultSuccessUrl("/user/show-contacts")				
+				.defaultSuccessUrl("/user/show-contacts/0")				
 				.and().csrf().disable();
 	}
 
